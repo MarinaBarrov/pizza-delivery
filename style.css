@@ -46,6 +46,11 @@ body {
     justify-content: space-around;
 }
 
+.menu p a {
+    color: white;
+    text-decoration: none;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -100,7 +105,7 @@ footer .menu {
 
 footer .menu p {
     margin: 6px 0px;
-    
+
 }
 
 .art-pizza-title {
