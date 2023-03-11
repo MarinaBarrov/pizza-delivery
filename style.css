@@ -1,0 +1,127 @@
+* {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.pizza-header {
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 10px 7px -4px rgba(255, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 10px 7px -4px red;
+    -moz-box-shadow: 1px 10px 7px -4px rgba(255, 0, 0, 0.75);
+
+}
+
+.logo {
+    display: flex;
+}
+
+.vector-pizza {
+    margin: 10px;
+}
+
+.txt-green {
+    color: #39B24A;
+}
+
+.txt-white {
+    color: white;
+}
+
+.txt-red {
+    color: #FC200C;
+}
+
+.menu {
+    color: white;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.principal {
+    background-color: #E5E5E5;
+    display: flex;
+    padding: 35px 20px;
+}
+
+.art-pizza {
+    background-image: url(img/delivery.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 50%;
+    padding: 26px;
+    border-radius: 5px;
+    margin-right: 5px ;
+}
+
+.art-podio {
+    width: 50%;
+    background-color: white;
+    padding: 26px;
+    border-radius: 5px;
+
+}
+
+
+.title-podio {
+    text-align: center;
+    font-size: 24px;
+}
+
+.art-podio-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .menu {
+    flex-direction: column;
+}
+
+footer .menu p {
+    margin: 6px 0px;
+    
+}
+
+.art-pizza-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.pizza-list {
+    padding: 0px;
+    font-weight: bold;
+}
+
+.pizza-list-title {
+    font-weight: bold;
+}
+.pizza-list li {
+    margin-bottom: 10px;
+}
+
+.img-pizza-falling {
+display: flex;
+justify-content: center;
+align-items: center;
+}
